@@ -1,0 +1,17 @@
+a{
+    text-decoration: none !important;
+    color: inherit !important;
+}
+.card {
+    box-shadow: 2px 4px 8px #e3e3e3;
+}
+.card-body{
+    min-height: 180px;
+}
+
+.card-title{
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    display: -webkit-box;
+}
